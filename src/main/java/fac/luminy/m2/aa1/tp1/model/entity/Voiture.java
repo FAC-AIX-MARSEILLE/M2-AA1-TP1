@@ -20,7 +20,6 @@ public class Voiture {
     private int chevauxFiscaux;
     private double prix;
     private double consommation;
-    //TODO ajout pour le nouveau TP
     private String couleur;
 
     @ManyToOne(fetch = FetchType.EAGER)

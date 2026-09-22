@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Classe representant une personne, utilisée pour la communication avec l'extérieur.
