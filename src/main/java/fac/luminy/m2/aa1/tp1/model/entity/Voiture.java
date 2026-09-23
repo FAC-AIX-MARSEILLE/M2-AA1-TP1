@@ -22,11 +22,11 @@ public class Voiture {
     private double consommation;
     private String couleur;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "proprietaire_id")
     private Personne proprietaire;
 
-    @ManyToOne(fetch = FetchType.EAGER)
+    @ManyToOne(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinColumn(name = "locataire_id")
     private Personne locataire;
 
